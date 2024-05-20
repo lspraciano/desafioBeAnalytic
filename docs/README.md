@@ -44,13 +44,12 @@ poetry install --no-root
 
 ### 🔖 Coleta dos Dados
 
-Para realizar a rotina de coletar os dados, estamos usando o selenium.
-Os dados são capturados e armazenados em uma lista de dicionário. Para
+Para realizar a rotina de coletar os dados, estamos usando o selenium,
+os dados são capturados e armazenados em uma lista de dicionário. Para
 executar esta rotina podemos usar o comando abaixo
 
-
 ```
-poetry run python 
+poetry run python -m routines.steam.get_all_sales_steam_data_routine
 ```
 
 
