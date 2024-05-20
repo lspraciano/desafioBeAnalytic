@@ -18,7 +18,7 @@ def get_all_sales_steam_data_routine():
         firefox_web_drive=firefox_web_drive,
         firefox_web_driver_waiter=firefox_web_driver_waiter,
         start_date_filter="2023-03-01",
-        end_date_filter="2023-03-01"
+        end_date_filter="2023-12-31"
     )
 
     table_data: list[dict] | None = get_sales_data_from_table_task(
