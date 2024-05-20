@@ -28,13 +28,13 @@ Siga os passos abaixo para configurar o ambiente de desenvolvimento:
 1. Clonando o Repositório:
 
 ```bash
-git clone https://github.com/lspraciano/projectBiomedicIADemonstrationsBackend.git
+git clone https://github.com/lspraciano/desafioBeAnalytic.git
 ```
 
 2. No diretório raiz do projeto, instale as dependências com o comando:
 
 ```bash
-cd projectBiomedicIADemonstrationsBackend
+cd desafioBeAnalytic
 poetry install --no-root
 ```
 
